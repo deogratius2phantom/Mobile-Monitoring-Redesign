@@ -5297,16 +5297,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.202 22.352) (xy 224.282 22.352)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0178bf7-e9aa-48c7-94cc-58013d3c0396")
-	)
-	(wire
-		(pts
 			(xy 132.842 64.77) (xy 132.842 61.976)
 		)
 		(stroke
@@ -5534,16 +5524,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.202 24.892) (xy 224.282 24.892)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd70cfb3-e70e-43a7-b556-267a8cf3cf4e")
-	)
-	(wire
-		(pts
 			(xy 253.238 60.96) (xy 255.016 60.96)
 		)
 		(stroke
@@ -5656,16 +5636,6 @@
 		)
 		(uuid "395f1be5-387a-46da-8170-0f8df5e0aae5")
 	)
-	(label "SDA"
-		(at 219.202 22.352 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "39a8b94f-facc-4026-95af-e80e5d2ca9d3")
-	)
 	(label "VIN"
 		(at 83.058 20.828 0)
 		(effects
@@ -5685,16 +5655,6 @@
 			(justify left bottom)
 		)
 		(uuid "6d301d81-52ac-43fc-87c9-9d7ffe991cc3")
-	)
-	(label "SCL"
-		(at 219.202 24.892 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "784ec638-3c0d-4434-91bd-318eb7da4de2")
 	)
 	(label "BATTERY_PRIMARY"
 		(at 208.28 17.272 0)
@@ -5784,6 +5744,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 224.282 22.352 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e329ca1-ae0e-4ab8-9ff1-f6d678f2424b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.7287 22.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5982,6 +5964,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 224.282 24.892 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "99f91910-d10d-4270-a12b-92d67a8a9bfa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.7892 24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6291,7 +6295,7 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0605ca4a-60b8-4970-90fc-8dc9a3a5da24")
@@ -8001,7 +8005,7 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dcf57d7-099a-4e9b-b23a-a1624caa84bb")
@@ -8938,8 +8942,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6099c9e2-97cc-438f-bff6-34e38c9fae75")
 		(property "Reference" "RV1"
@@ -10308,7 +10312,7 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94fa11df-eb4e-428b-b4a5-54e5b9d92f47")
@@ -11523,7 +11527,7 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b91ee2cf-ef8e-4b37-a9e8-d1fe6dd788bb")
@@ -12829,8 +12833,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "eefd7185-c5b8-45fe-be2c-4dbb70f42710")
 		(property "Reference" "BT1"
 			(at 181.102 38.354 90)
