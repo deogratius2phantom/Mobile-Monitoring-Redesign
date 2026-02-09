@@ -1,0 +1,42 @@
+### Footprint positions - created on 2026-02-07T11:03:46+0300 ###
+### Printed by KiCad version 9.0.7
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                Package                                             PosX       PosY       Rot  Side
+C1        100nF              C_0603_1608Metric                               142.2500   -88.0150  -90.0000  bottom
+C2        100nF              C_0603_1608Metric                               136.2200   -88.0150   90.0000  bottom
+C4        100nF              C_0603_1608Metric                               136.3300  -109.3650  -90.0000  bottom
+C7        100nF              C_0603_1608Metric                               145.3400  -109.2800  -90.0000  bottom
+C8        1UF                C_0603_1608Metric                               159.2100   -90.0200  -90.0000  bottom
+C28       1uF                C_0603_1608Metric                               127.5225   -86.6100  -90.0000  bottom
+C29       0.47uF             C_0603_1608Metric                               126.7750   -84.2600    0.0000  bottom
+C30       100nF              C_0603_1608Metric                               160.7900  -108.8000  -90.0000  bottom
+D4        LED                LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder   163.4650  -112.2200  180.0000  bottom
+D5        LED                LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder   163.4850  -115.2900  180.0000  bottom
+J7        Conn_01x05_Pin     PinSocket_1x05_P2.54mm_Horizontal               126.8979  -108.5674    0.0000  bottom
+J8        Conn_01x06_Socket  PinHeader_1x06_P2.54mm_Horizontal               150.1400  -118.0050  -90.0000  bottom
+Q1        2N7002             SOT-23                                          134.4645  -113.4494  180.0000  bottom
+Q2        AO3401A            SOT-23                                          128.9525  -113.4494  180.0000  bottom
+Q6        2N7002             SOT-23                                          155.5125   -97.5700    0.0000  bottom
+R3        10K                R_0603_1608Metric                               153.9350   -86.3400    0.0000  bottom
+R4        10K                R_0603_1608Metric                               156.9550   -86.3400    0.0000  bottom
+R5        1K                 R_0603_1608Metric                               138.7920  -113.4494  -90.0000  bottom
+R6        4.7K               R_0603_1608Metric                               137.2320  -113.4494   90.0000  bottom
+R7        10K                R_0603_1608Metric                               131.7350  -113.4494  -90.0000  bottom
+R16       10.5K              R_0603_1608Metric                               147.0250  -112.4900  180.0000  bottom
+R17       2K                 R_0603_1608Metric                               147.0250  -114.0700    0.0000  bottom
+R21       59k                R_0603_1608Metric                               130.2550   -98.8700  180.0000  bottom
+R22       10k                R_0603_1608Metric                               130.2450   -97.3500    0.0000  bottom
+R23       0.01               R_1206_3216Metric                               125.6625   -91.5100  180.0000  bottom
+R24       10K                R_0603_1608Metric                               122.4200   -91.1700   90.0000  bottom
+R25       10K                R_0603_1608Metric                               152.7725   -97.5450   90.0000  bottom
+R26       10K                R_0603_1608Metric                               120.8800   -91.1750   90.0000  bottom
+R27       1K                 R_0603_1608Metric                               163.3150  -110.6600    0.0000  bottom
+R28       1K                 R_0603_1608Metric                               163.3000  -113.7700  180.0000  bottom
+U1        ATmega2560-16A     TQFP-100_14x14mm_P0.5mm                         141.3489   -99.0800    0.0000  bottom
+U2        DS3232M            SOIC-8_3.9x4.9mm_P1.27mm                        154.6350   -89.8550  180.0000  bottom
+U9        AMS1117-3.3        SOT-223-3_TabPin2                               155.5800  -108.7600    0.0000  bottom
+U10       BQ27441DRZR-G1A    Texas_S-PDSO-N12                                124.9500   -87.5750  -90.0000  bottom
+U11       TPL5010            SOT-23-6                                        153.4900   -94.3100  180.0000  bottom
+Y1        Crystal            Crystal_SMD_3225-4Pin_3.2x2.5mm                 139.2350   -88.0150    0.0000  bottom
+## End

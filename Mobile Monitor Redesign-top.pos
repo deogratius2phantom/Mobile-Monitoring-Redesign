@@ -1,0 +1,60 @@
+### Footprint positions - created on 2026-02-07T11:03:46+0300 ###
+### Printed by KiCad version 9.0.7
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                          Package                                                    PosX       PosY       Rot  Side
+C3        22p                          C_0603_1608Metric                                      137.3300   -91.7050   90.0000  top
+C5        100nF                        C_0603_1608Metric                                      138.8800   -91.7050   90.0000  top
+C6        100nF                        C_0603_1608Metric                                      151.9200   -98.6600    0.0000  top
+C11       470UF                        CP_Radial_D4.0mm_P2.00mm                               152.4800  -103.7700   90.0000  top
+C12       0.1UF                        C_0603_1608Metric                                      148.3750  -104.2500    0.0000  top
+C13       10uF                         C_0603_1608Metric                                      149.4450   -90.9000    0.0000  top
+C14       10uF                         C_0603_1608Metric                                      149.4450   -89.3700    0.0000  top
+C15       470UF                        CP_Radial_D4.0mm_P2.00mm                               126.1800  -115.4726   90.0000  top
+C16       22uF                         C_0805_2012Metric                                      139.4100   -84.9200   90.0000  top
+C17       22uF                         C_0805_2012Metric                                      135.2800   -84.9300   90.0000  top
+C18       22uF                         C_0805_2012Metric                                      134.8400  -103.1200   90.0000  top
+C19       22uF                         C_0805_2012Metric                                      134.8400   -99.6200   90.0000  top
+C20       22uF                         C_0805_2012Metric                                      137.3300   -88.4100   90.0000  top
+C21       22uF                         C_0805_2012Metric                                      139.4100   -88.4100   90.0000  top
+C22       1UF                          C_0603_1608Metric                                      159.0150   -93.3400  180.0000  top
+C23       22uF                         C_0805_2012Metric                                      135.2500   -88.4100   90.0000  top
+C24       1uF                          C_0603_1608Metric                                      121.2050   -56.2900    0.0000  top
+C25       22uF                         C_0805_2012Metric                                      148.6700   -98.8900    0.0000  top
+C26       1uF                          C_0603_1608Metric                                      104.5500   -60.9200  180.0000  top
+C27       22uF                         C_0805_2012Metric                                      148.6700  -100.9200    0.0000  top
+C31       1uF                          C_0603_1608Metric                                      121.1900   -70.0500    0.0000  top
+C32       100nF                        C_0603_1608Metric                                      152.5000   -87.8100  180.0000  top
+D1        SK54B                        D_SMB                                                  160.0100  -108.5875   90.0000  top
+D2        SK54B                        D_SMB                                                  161.5200  -114.6100    0.0000  top
+D3        SK54B                        D_SMB                                                  150.6325   -95.5900    0.0000  top
+J1        Conn_01x02_Pin               JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical                  126.1700   -69.0100    0.0000  top
+J2        Conn_01x08_Pin               Molex_PicoBlade_53398-0871_1x08-1MP_P1.25mm_Vertical   120.7031  -108.4360  -90.0000  top
+J3        Conn_01x08_Pin               Molex_PicoBlade_53398-0871_1x08-1MP_P1.25mm_Vertical   120.6931   -91.2910  -90.0000  top
+J4        USB_C_Receptacle_USB2.0_16P  USB_C_Receptacle_Palconn_UTC16-G                       161.5300   -99.6000   90.0000  top
+J5        Conn_02x03_Odd_Even          PinSocket_2x03_P2.54mm_Vertical_SMD                    124.2600   -61.4600    0.0000  top
+L1        33uH                         L_10.4x10.4_H4.8                                       152.2300  -110.8400  -90.0000  top
+L2        1uH                          L_10.4x10.4_H4.8                                       128.6763   -90.8099   90.0000  top
+L3        33uH                         L_10.4x10.4_H4.8                                       141.3489   -99.0800   90.0000  top
+Q5        AO3401A                      SOT-23                                                 164.0479  -106.8660  -90.0000  top
+R1        1M                           R_0603_1608Metric                                      121.1900   -72.5600    0.0000  top
+R2        10K                          R_0603_1608Metric                                      135.7500   -91.7100   90.0000  top
+R8        10K                          R_0603_1608Metric                                      124.1800  -111.1450  -90.0000  top
+R9        1K                           R_0603_1608Metric                                      152.4800   -90.9000  180.0000  top
+R10       1K                           R_0603_1608Metric                                      152.4900   -89.3700  180.0000  top
+R12       5.1K                         R_0603_1608Metric                                      156.3950  -104.1400  180.0000  top
+R13       5.1K                         R_0603_1608Metric                                      156.3950   -95.0800  180.0000  top
+R14       100K                         R_0603_1608Metric                                      164.0800  -110.6950   90.0000  top
+R15       2                            R_0603_1608Metric                                      149.4450   -87.8100  180.0000  top
+R19       26k                          R_0603_1608Metric                                      127.1100  -111.1500    0.0000  top
+R20       0.5                          R_0603_1608Metric                                      137.3300   -84.9200   90.0000  top
+R29       1K                           R_0603_1608Metric                                      124.1800  -104.4267   90.0000  top
+R30       2K                           R_0603_1608Metric                                      124.1800  -107.4700   90.0000  top
+R31       1K                           R_0603_1608Metric                                      124.1800  -101.3833  -90.0000  top
+R32       2K                           R_0603_1608Metric                                      124.1800   -98.3400  -90.0000  top
+R36       4.7K                         R_0603_1608Metric                                      121.1900   -75.0700    0.0000  top
+U5        XL4005                       TO-263-5_TabPin3                                       135.1714  -110.6910  180.0000  top
+U6        IP5306                       HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm              144.1846   -87.6556  180.0000  top
+U7        CH340C                       SOIC-16_3.9x9.9mm_P1.27mm                              160.4250   -88.7650   90.0000  top
+U8        FP6298XR                     HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm              131.0850  -101.1100   90.0000  top
+## End
