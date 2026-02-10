@@ -8358,6 +8358,28 @@
 			)
 		)
 	)
+	(global_label "SOFT_PWR_SWITCH"
+		(shape input)
+		(at 92.964 98.298 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86083c75-0be4-4f1f-bb30-a5a7678e58f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.3058 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SENSOR_PWR"
 		(shape input)
 		(at 190.5 118.618 180)
