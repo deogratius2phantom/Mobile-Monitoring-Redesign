@@ -46,13 +46,96 @@ This repository contains the complete hardware design files for a portable air q
 
 ## 🚀 Getting Started
 
+### Cloning the Repository
+
+You can clone this repository using either HTTPS or SSH:
+
+#### Option 1: Clone with HTTPS
+```bash
+git clone https://github.com/deogratius2phantom/Mobile-Monitoring-Redesign.git
+cd Mobile-Monitoring-Redesign
+```
+
+#### Option 2: Clone with SSH (Recommended for Contributors)
+```bash
+git clone git@github.com:deogratius2phantom/Mobile-Monitoring-Redesign.git
+cd Mobile-Monitoring-Redesign
+```
+
+<details>
+<summary><b>Setting up SSH for GitHub (Click to expand)</b></summary>
+
+If you haven't set up SSH keys for GitHub yet, follow these steps:
+
+##### 1. Check for Existing SSH Keys
+```bash
+ls -al ~/.ssh
+```
+Look for files named `id_rsa.pub`, `id_ecdsa.pub`, or `id_ed25519.pub`.
+
+##### 2. Generate a New SSH Key (if needed)
+```bash
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+Or if your system doesn't support Ed25519:
+```bash
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+Press Enter to accept the default file location, and optionally enter a passphrase.
+
+##### 3. Add SSH Key to SSH Agent
+```bash
+# Start the SSH agent
+eval "$(ssh-agent -s)"
+
+# Add your SSH private key to the agent
+ssh-add ~/.ssh/id_ed25519
+```
+(Replace `id_ed25519` with `id_rsa` if you generated an RSA key)
+
+##### 4. Add SSH Key to Your GitHub Account
+```bash
+# Copy the SSH public key to clipboard (Linux)
+cat ~/.ssh/id_ed25519.pub
+
+# macOS
+pbcopy < ~/.ssh/id_ed25519.pub
+
+# Windows (Git Bash)
+clip < ~/.ssh/id_ed25519.pub
+```
+
+Then:
+- Go to GitHub.com and sign in
+- Click your profile photo → **Settings**
+- In the sidebar, click **SSH and GPG keys**
+- Click **New SSH key**
+- Add a descriptive title (e.g., "My Laptop")
+- Paste your key into the "Key" field
+- Click **Add SSH key**
+
+##### 5. Verify SSH Connection to GitHub
+```bash
+ssh -T git@github.com
+```
+You should see a message like:
+```
+Hi username! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+##### 6. Clone the Repository Using SSH
+```bash
+git clone git@github.com:deogratius2phantom/Mobile-Monitoring-Redesign.git
+cd Mobile-Monitoring-Redesign
+```
+
+For more detailed information, visit [GitHub's SSH documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
+
+</details>
+
 ### Viewing the Design
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/deogratius2phantom/Mobile-Monitoring-Redesign.git
-   cd Mobile-Monitoring-Redesign
-   ```
+1. **Clone the repository** (see above for cloning options)
 
 2. **Open in KiCad**:
    - Launch KiCad
