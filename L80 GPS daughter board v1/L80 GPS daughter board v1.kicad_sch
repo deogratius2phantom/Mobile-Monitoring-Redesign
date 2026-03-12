@@ -2832,16 +2832,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 104.14) (xy 180.086 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46884ce9-6f58-4257-bb9f-9550ee1a9190")
-	)
-	(wire
-		(pts
 			(xy 98.552 119.888) (xy 98.552 120.142)
 		)
 		(stroke
@@ -2849,16 +2839,6 @@
 			(type default)
 		)
 		(uuid "4ba194d0-aa42-442b-bf49-015dd205f804")
-	)
-	(wire
-		(pts
-			(xy 189.23 101.6) (xy 180.086 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54f327c2-f766-4670-9aec-116e189d6e1e")
 	)
 	(wire
 		(pts
@@ -3310,7 +3290,7 @@
 	)
 	(global_label "gps_rx"
 		(shape input)
-		(at 180.086 101.6 180)
+		(at 189.23 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3320,7 +3300,7 @@
 		)
 		(uuid "5791b382-84bb-4038-a10c-fd150fb68bcc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.9928 101.6 0)
+			(at 180.1368 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3464,7 +3444,7 @@
 	)
 	(global_label "gps_tx"
 		(shape input)
-		(at 180.086 104.14 180)
+		(at 189.23 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3474,7 +3454,7 @@
 		)
 		(uuid "84531f72-b305-47fe-828d-a4a46972222c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.0533 104.14 0)
+			(at 180.1973 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
