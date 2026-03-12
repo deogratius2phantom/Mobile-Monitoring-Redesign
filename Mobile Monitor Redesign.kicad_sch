@@ -8349,28 +8349,6 @@
 			)
 		)
 	)
-	(global_label "GSM_PWR_EN"
-		(shape input)
-		(at 97.282 55.626 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3d5ee18d-19af-45ae-b329-8acbc0cb2db3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.6042 55.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PMS_RX"
 		(shape input)
 		(at 92.964 93.218 0)
