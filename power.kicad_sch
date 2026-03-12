@@ -5184,6 +5184,17 @@
 	)
 	(wire
 		(pts
+			(xy 32.766 77.47) (xy 59.69 77.47)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 132 0 0 1)
+		)
+		(uuid "91540340-52dd-46a6-8771-c4a532bea5ba")
+	)
+	(wire
+		(pts
 			(xy 212.344 32.512) (xy 212.344 29.972)
 		)
 		(stroke
@@ -5324,17 +5335,6 @@
 			(type default)
 		)
 		(uuid "b1e63f73-ce74-47c9-b4e1-f6bee1c8e4e3")
-	)
-	(wire
-		(pts
-			(xy 59.69 77.47) (xy 32.766 77.47)
-		)
-		(stroke
-			(width 1)
-			(type default)
-			(color 132 0 0 1)
-		)
-		(uuid "b3c22151-c14d-461f-bf97-b6f5d5d7a5e3")
 	)
 	(wire
 		(pts
@@ -5847,6 +5847,28 @@
 		(uuid "273c7fab-dd64-41c2-9ba7-f0f829e240bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 238.46 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5:32V DC INPUT"
+		(shape input)
+		(at 32.766 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "366bb89b-22b1-4bc8-9436-0725209d26b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.4803 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
