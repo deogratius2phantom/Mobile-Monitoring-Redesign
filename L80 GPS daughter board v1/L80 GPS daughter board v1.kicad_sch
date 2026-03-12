@@ -2480,6 +2480,14 @@
 		(uuid "03628845-226c-4dde-b14a-8b3568266f88")
 	)
 	(no_connect
+		(at 118.618 52.578)
+		(uuid "2de8ab83-ab6d-45f1-bf07-f5e651ccf4f9")
+	)
+	(no_connect
+		(at 151.638 52.578)
+		(uuid "2ed6343d-3274-4329-8113-bb818a8fe435")
+	)
+	(no_connect
 		(at 151.638 57.658)
 		(uuid "430416b3-6bf6-459b-b5f0-79f30b05f76a")
 	)
@@ -2759,6 +2767,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 72.136) (xy 118.618 72.136)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b81d26-b68d-48d9-a34f-93efc7212294")
+	)
+	(wire
+		(pts
 			(xy 139.954 128.524) (xy 139.954 125.984)
 		)
 		(stroke
@@ -2836,6 +2854,16 @@
 			(type default)
 		)
 		(uuid "f9c23216-9b8f-4fbf-af2f-ba39e534d613")
+	)
+	(wire
+		(pts
+			(xy 118.618 72.136) (xy 118.618 67.818)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb567dce-9618-4115-882a-14ddefe31b8f")
 	)
 	(global_label "SD_CARD_PWR"
 		(shape input)
@@ -3035,6 +3063,28 @@
 			)
 		)
 	)
+	(global_label "SD_CS"
+		(shape input)
+		(at 118.618 55.118 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "669d4693-aa9d-406b-a60b-4fd373bf398d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.7062 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPS_Switch"
 		(shape input)
 		(at 76.962 122.682 90)
@@ -3079,6 +3129,28 @@
 			)
 		)
 	)
+	(global_label "MOSI"
+		(shape input)
+		(at 118.618 57.658 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "723c6628-5f81-47f7-a902-29ac8e7a412d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.0366 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWR_SWITCH"
 		(shape input)
 		(at 189.23 109.22 180)
@@ -3092,6 +3164,28 @@
 		(uuid "75874411-4adc-4396-a3b5-3fc891c47ef4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 174.452 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape input)
+		(at 111.76 72.136 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "818f3bbb-fea5-44e9-8d7a-b56193212868")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.1786 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3163,6 +3257,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCLK"
+		(shape input)
+		(at 118.618 62.738 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d743e8c2-73de-47bb-8bf9-8f72499687df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.8552 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
