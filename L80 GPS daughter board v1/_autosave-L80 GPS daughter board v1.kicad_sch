@@ -181,7 +181,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x06_Socket"
+		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -190,15 +190,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 7.62 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x06_Socket"
-				(at 0 -10.16 0)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -223,7 +223,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x06, script generated"
+			(property "Description" "Generic connector, single row, 01x02, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -258,7 +258,182 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x06_Socket_1_1"
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x07_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x07_Socket"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x07, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x07_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 7.62) (xy -0.508 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy -1.27 5.08) (xy -0.508 5.08)
@@ -323,6 +498,18 @@
 					(pts
 						(xy -1.27 -7.62) (xy -0.508 -7.62)
 					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 7.112)
+					(mid -0.5058 7.62)
+					(end 0 8.128)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -404,7 +591,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -422,7 +609,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -440,7 +627,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -458,7 +645,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -476,7 +663,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -494,7 +681,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -504,6 +691,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2241,6 +2446,12 @@
 		(uuid "8fc40cdd-2b73-44bd-823f-75ca4ea4077b")
 	)
 	(junction
+		(at 163.068 57.658)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "924f2c1c-36c7-4eb3-a6a0-03efe2c7502c")
+	)
+	(junction
 		(at 139.954 128.524)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2251,6 +2462,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a237e4c1-a33c-4c17-b3ef-12071277e1d4")
+	)
+	(junction
+		(at 179.324 57.658)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4d2157c-b58e-49c6-8cf9-6fa00221a488")
 	)
 	(junction
 		(at 156.464 115.824)
@@ -2392,6 +2609,36 @@
 	)
 	(wire
 		(pts
+			(xy 179.324 57.658) (xy 178.308 57.658)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55feab81-07aa-47c3-a32d-a7261117bef5")
+	)
+	(wire
+		(pts
+			(xy 179.324 57.658) (xy 179.324 60.198)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d8684d8-1bf4-44d1-826d-1a556c22a351")
+	)
+	(wire
+		(pts
+			(xy 161.29 57.658) (xy 163.068 57.658)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60433db9-e15a-4601-b64f-d38b501dd06f")
+	)
+	(wire
+		(pts
 			(xy 156.464 123.444) (xy 159.004 123.444)
 		)
 		(stroke
@@ -2399,6 +2646,26 @@
 			(type default)
 		)
 		(uuid "7740f75a-00bd-4262-921e-f379c0585bf6")
+	)
+	(wire
+		(pts
+			(xy 186.182 91.948) (xy 184.912 91.948)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f60f500-6893-4efa-91d7-341513333bda")
+	)
+	(wire
+		(pts
+			(xy 163.068 57.658) (xy 163.068 60.198)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8190b92e-036d-420d-96cf-c389c01bae76")
 	)
 	(wire
 		(pts
@@ -2462,6 +2729,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.324 57.404) (xy 179.324 57.658)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a64ccb40-249f-422d-b840-bc238a4e9675")
+	)
+	(wire
+		(pts
 			(xy 139.954 133.096) (xy 139.954 128.524)
 		)
 		(stroke
@@ -2469,6 +2746,16 @@
 			(type default)
 		)
 		(uuid "a7c35032-b329-431e-a0c4-dcdbf936e103")
+	)
+	(wire
+		(pts
+			(xy 189.23 96.52) (xy 186.182 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9294eef-10c1-4272-a29e-bb066ed40594")
 	)
 	(wire
 		(pts
@@ -2499,6 +2786,16 @@
 			(type default)
 		)
 		(uuid "d24d0ed1-27a5-4d4d-83f7-7760cfa49753")
+	)
+	(wire
+		(pts
+			(xy 186.182 96.52) (xy 186.182 91.948)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1113bed-2278-4372-bf69-f514a44f33f9")
 	)
 	(wire
 		(pts
@@ -2539,6 +2836,28 @@
 			(type default)
 		)
 		(uuid "f9c23216-9b8f-4fbf-af2f-ba39e534d613")
+	)
+	(global_label "SD_CARD_PWR"
+		(shape input)
+		(at 179.324 57.404 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09d7ef31-1404-4f4f-a437-803144b61600")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.324 41.1141 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "stat"
 		(shape input)
@@ -2668,6 +2987,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWR_SWITCH"
+		(shape input)
+		(at 184.912 91.948 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3f1ade24-7b83-4dbe-9ddf-cf329488a86d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.134 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2826,6 +3167,28 @@
 			)
 		)
 	)
+	(global_label "SD_CARD_PWR"
+		(shape input)
+		(at 118.618 60.198 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1d4398a-d522-43a3-93b6-15cff5201728")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.3281 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "stat"
 		(shape input)
 		(at 123.444 128.524 270)
@@ -2867,6 +3230,71 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.324 67.818 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "184e7f14-67cb-4e8b-a072-4897ef6b7560")
+		(property "Reference" "#PWR016"
+			(at 179.324 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.324 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.324 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.324 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.324 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c417497-eed5-4ea3-bf1a-2829a0c05bca")
+		)
+		(instances
+			(project "L80 GPS daughter board v1"
+				(path "/d19b7dbb-d08f-4a81-9071-b9150d5b9101"
+					(reference "#PWR016")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3212,6 +3640,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 186.436 64.008 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4440393d-f94c-43ec-8d14-df7737b8d1f5")
+		(property "Reference" "C7"
+			(at 186.69 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 186.436 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 187.4012 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.436 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.436 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3c16ac4-8b28-46c5-adf1-4061f26cd289")
+		)
+		(pin "2"
+			(uuid "1057c153-e1c4-49ba-91d2-77b315fb0987")
+		)
+		(instances
+			(project "L80 GPS daughter board v1"
+				(path "/d19b7dbb-d08f-4a81-9071-b9150d5b9101"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 123.444 114.554 90)
 		(unit 1)
@@ -3284,6 +3781,71 @@
 			(project ""
 				(path "/d19b7dbb-d08f-4a81-9071-b9150d5b9101"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.688 67.818 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56cb8269-9e23-4164-8a65-91caa6d83dcd")
+		(property "Reference" "#PWR015"
+			(at 170.688 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.688 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.688 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.688 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.688 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b377a218-b657-424e-a23e-d23da2f96525")
+		)
+		(instances
+			(project "L80 GPS daughter board v1"
+				(path "/d19b7dbb-d08f-4a81-9071-b9150d5b9101"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4065,7 +4627,7 @@
 				)
 			)
 		)
-		(property "Footprint" "THD252811SDGF"
+		(property "Footprint" "KiCad:THD252811SDGF"
 			(at 147.828 50.038 0)
 			(effects
 				(font
@@ -4223,34 +4785,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Socket")
-		(at 194.31 104.14 0)
+		(lib_id "power:+5V")
+		(at 186.436 60.198 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9663c855-369e-4949-a269-82016873b8e4")
-		(property "Reference" "J1"
-			(at 196.596 104.648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x06_Socket"
-			(at 177.8 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 194.31 104.14 0)
+		(uuid "91aa572a-70f4-49ae-b080-b84b1cbc0e6e")
+		(property "Reference" "#PWR017"
+			(at 186.436 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4258,8 +4802,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 194.31 104.14 0)
+		(property "Value" "+5V"
+			(at 186.436 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.436 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4267,8 +4819,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 194.31 104.14 0)
+		(property "Datasheet" ""
+			(at 186.436 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.436 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4277,27 +4838,145 @@
 			)
 		)
 		(pin "1"
-			(uuid "394f0838-5524-4fcd-a5fe-a059f6647ddc")
-		)
-		(pin "6"
-			(uuid "de853446-4856-44e7-b2b7-8b84d2a37bcf")
-		)
-		(pin "3"
-			(uuid "62d5e9ac-53cb-4325-a241-d7c6e02bcd9b")
-		)
-		(pin "2"
-			(uuid "cdff2dc7-851d-472c-8bbd-44850103cc0c")
-		)
-		(pin "4"
-			(uuid "99464552-98ec-4585-bf07-ea5f3d01b634")
-		)
-		(pin "5"
-			(uuid "a93b5543-0547-48b8-b8f5-51bcf0224e5d")
+			(uuid "3feb9699-68f4-41b6-b6c0-e4251840151e")
 		)
 		(instances
 			(project "L80 GPS daughter board v1"
 				(path "/d19b7dbb-d08f-4a81-9071-b9150d5b9101"
-					(reference "J1")
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 144.526 83.566 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99b1eb34-e4c9-4273-ba85-11a08a35a542")
+		(property "Reference" "J3"
+			(at 145.161 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 145.161 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 144.526 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.526 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 144.526 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b496b712-d33d-4719-8355-d8c415f41e81")
+		)
+		(pin "2"
+			(uuid "dd4cd501-ae3e-4938-8ad8-9f7f6938ef8b")
+		)
+		(instances
+			(project ""
+				(path "/d19b7dbb-d08f-4a81-9071-b9150d5b9101"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.606 86.106 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a706ed7-df2d-4b2a-a4d9-4efb0a2fa075")
+		(property "Reference" "#PWR019"
+			(at 149.606 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.606 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.606 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.606 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.606 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61fd7f66-2e7f-4ee3-a650-feda20e8942c")
+		)
+		(instances
+			(project "L80 GPS daughter board v1"
+				(path "/d19b7dbb-d08f-4a81-9071-b9150d5b9101"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4436,6 +5115,136 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 186.436 67.818 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c70f45e4-9558-4e49-9452-a2cc5bc9579d")
+		(property "Reference" "#PWR018"
+			(at 186.436 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.436 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.436 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.436 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.436 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b8d285a-8319-491b-943c-07e6d98883e3")
+		)
+		(instances
+			(project "L80 GPS daughter board v1"
+				(path "/d19b7dbb-d08f-4a81-9071-b9150d5b9101"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 161.29 57.658 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7b76ef1-6d37-4f7a-975a-b49ef8c0c8d5")
+		(property "Reference" "#PWR014"
+			(at 161.29 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 161.29 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ae60384-8efd-4eea-ba21-f944f4de1d3c")
+		)
+		(instances
+			(project "L80 GPS daughter board v1"
+				(path "/d19b7dbb-d08f-4a81-9071-b9150d5b9101"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 105.664 130.302 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4494,6 +5303,160 @@
 			(project "L80 GPS daughter board v1"
 				(path "/d19b7dbb-d08f-4a81-9071-b9150d5b9101"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 179.324 64.008 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1cef253-bfc4-4497-822b-b152c71aab4d")
+		(property "Reference" "C6"
+			(at 179.578 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 179.324 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 180.2892 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.324 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.324 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4115f548-d964-45a9-ac07-8a8833e079df")
+		)
+		(pin "2"
+			(uuid "265795c0-3da5-40c6-9d82-b415967e5a59")
+		)
+		(instances
+			(project "L80 GPS daughter board v1"
+				(path "/d19b7dbb-d08f-4a81-9071-b9150d5b9101"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x07_Socket")
+		(at 194.31 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2a443cb-8c86-484c-9a42-357d6fadff90")
+		(property "Reference" "J4"
+			(at 195.58 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x07_Socket"
+			(at 195.58 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical"
+			(at 194.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x07, script generated"
+			(at 194.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "824533ee-7216-4186-b3cd-00966488a257")
+		)
+		(pin "7"
+			(uuid "116d0c5b-951e-4d44-bfe5-a673b875cbb7")
+		)
+		(pin "2"
+			(uuid "41312adc-06fc-44e2-b7e4-9d33d33bc0ed")
+		)
+		(pin "3"
+			(uuid "407eb381-f219-4db3-9031-0b41c1567733")
+		)
+		(pin "4"
+			(uuid "b1f7657d-eb0f-4ce1-b705-13d415979e7c")
+		)
+		(pin "6"
+			(uuid "0ed85135-6a66-42d0-9e01-bad96d09c69d")
+		)
+		(pin "5"
+			(uuid "25bf7da2-6e6d-4b3e-90d6-3c9f88b50c10")
+		)
+		(instances
+			(project ""
+				(path "/d19b7dbb-d08f-4a81-9071-b9150d5b9101"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4860,6 +5823,82 @@
 			(project "L80 GPS daughter board v1"
 				(path "/d19b7dbb-d08f-4a81-9071-b9150d5b9101"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AP2112K-3.3")
+		(at 170.688 60.198 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee8d9679-6869-4118-88fe-2ba06048b327")
+		(property "Reference" "U4"
+			(at 170.688 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP2112K-3.3"
+			(at 170.688 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 170.688 51.943 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+			(at 170.688 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+			(at 170.688 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "eb826529-071f-4fd1-a900-6bae484af9ba")
+		)
+		(pin "2"
+			(uuid "dad6f63f-0ca1-432b-83aa-51d70cb006a7")
+		)
+		(pin "4"
+			(uuid "fd3697aa-3cb6-4acc-a655-72df1b92ffaf")
+		)
+		(pin "3"
+			(uuid "9878c24c-6793-4d9c-abf4-7d63f865bf23")
+		)
+		(pin "1"
+			(uuid "028f8d62-86a1-4dc9-ae51-b5cd853c4ee8")
+		)
+		(instances
+			(project "L80 GPS daughter board v1"
+				(path "/d19b7dbb-d08f-4a81-9071-b9150d5b9101"
+					(reference "U4")
 					(unit 1)
 				)
 			)
