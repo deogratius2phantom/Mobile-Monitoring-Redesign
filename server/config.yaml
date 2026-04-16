@@ -1,0 +1,17 @@
+udp:
+  host: 0.0.0.0
+  port: 5005
+
+processing:
+  window_ms: 200
+  min_nodes_per_fix: 3
+
+radio:
+  tx_power_dbm: -40
+  path_loss_exponent: 2.0
+
+nodes:
+  node-1: [0.0, 0.0, 2.0]
+  node-2: [8.0, 0.0, 2.0]
+  node-3: [0.0, 8.0, 2.0]
+  node-4: [8.0, 8.0, 2.0]
