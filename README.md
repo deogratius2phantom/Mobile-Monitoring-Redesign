@@ -17,6 +17,7 @@ This repository contains the complete hardware design files for a portable air q
 ## 📂 Repository Structure
 
 ```
+├── firmware/esp32/                   # ESP32 firmware project (PlatformIO)
 ├── 3D CAD/                          # 3D CAD files and models
 ├── L80 GPS daughter board v1/       # GPS module daughter board design files
 ├── Mobile Monitor Redesign-backups/ # Backup files for KiCad project
@@ -31,6 +32,18 @@ This repository contains the complete hardware design files for a portable air q
 ├── SIM800L v10.step                     # SIM800L module 3D model
 └── report.txt                           # Design report/notes
 ```
+
+## 🧠 ESP32 Firmware (PlatformIO)
+
+The ESP32 firmware project is located at:
+
+`firmware/esp32`
+
+Use PlatformIO commands from that directory:
+
+- Build: `platformio run`
+- Upload: `platformio run -t upload`
+- Serial monitor: `platformio device monitor`
 
 ## 🛠️ Tools & Requirements
 
