@@ -2,6 +2,32 @@
 
 A comprehensive PCB and CAD design for a mobile air quality monitoring system with GPS tracking and cellular connectivity.
 
+## Documentation website
+
+This repository now includes a GitHub Pages documentation site powered by **MkDocs Material**.
+
+- Site source: `docs/`
+- Site configuration: `mkdocs.yml`
+- Deployment workflow: `.github/workflows/pages.yml`
+- Python dependencies for docs work: `requirements-docs.txt`
+
+Once GitHub Pages is enabled for this repository, the published site is expected at:
+
+`https://deogratius2phantom.github.io/Mobile-Monitoring-Redesign/`
+
+### Preview the docs locally
+
+```powershell
+python -m pip install -r requirements-docs.txt
+python -m mkdocs serve
+```
+
+### Build the docs locally
+
+```powershell
+python -m mkdocs build --strict
+```
+
 ## 📋 Project Overview
 
 This repository contains the complete hardware design files for a portable air quality monitoring device. The system is designed to measure environmental air quality parameters while providing real-time GPS location tracking and cellular data transmission capabilities.
@@ -168,6 +194,16 @@ For detailed information about:
 - **PCB Layout**: Open `Mobile Monitor Redesign.kicad_pcb` in KiCad
 - **Power Design**: Reference `power.kicad_sch`
 - **Design Notes**: See `report.txt`
+
+For the GitHub Pages site content and structure, see:
+- `docs/index.md`
+- `docs/getting-started.md`
+- `docs/hardware-overview.md`
+- `docs/setup-and-first-use.md`
+- `docs/operating-the-device.md`
+- `docs/troubleshooting.md`
+- `docs/safety-and-care.md`
+- `docs/maker-and-contributor-reference.md`
 
 ## 🤝 Contributing
 
